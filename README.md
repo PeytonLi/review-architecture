@@ -19,7 +19,7 @@ Make sure the repository is public and `SKILL.md` is at the repository root.
 ### 2) Verify installability from the CLI
 
 ```bash
-npx skills add <owner>/<repo> --list
+npx skills add peytonli/review-architecture --list
 ```
 
 Expected result: your skill appears in the list (for this repo, `review-architecture`).
@@ -27,13 +27,13 @@ Expected result: your skill appears in the list (for this repo, `review-architec
 ### 3) Test install of this specific skill
 
 ```bash
-npx skills add <owner>/<repo> --skill review-architecture
+npx skills add peytonli/review-architecture --skill review-architecture
 ```
 
 Optional: install globally for all projects.
 
 ```bash
-npx skills add <owner>/<repo> --skill review-architecture -g
+npx skills add peytonli/review-architecture --skill review-architecture -g
 ```
 
 ### 4) Verify installation
